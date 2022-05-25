@@ -11,7 +11,7 @@ class OrderStatus extends Model
     // use HasFactory;
     use SoftDeletes;
 
-    public $table = 'service';
+    public $table = 'order_status';
 
     protected $dates = [
         'updated_at',
